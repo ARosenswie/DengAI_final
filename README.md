@@ -11,14 +11,14 @@ The steps taken for getting the model were the following.
 3. Separate the train/test data into different files for each city.
 
 4. Do an Exploratory Data Analysis, understanding all the data, and choosing which features would make the best impact within the model:
-  - Temperature from reanalysis were droped as they are simulated and there are observed data from station;
-  - Precipitation from reanalysis were droped for the same reason, and as satelites contains many assumptions, were also dropped. We kept the data from station;
+  - Temperature from reanalysis were dropped due to them being simulated, wheras we used observed data from stations;
+  - Precipitation from reanalysis was dropped for the same reason, alongside satelites which contain many assumptions. We kept the observed data from station observations;
   - Relative Humidity and specific Humidity were kept;
   - All NDVIs were kept. While San Juan presents a mix of ocean and bare soil, Iquitos has more of a sparse vegetation.
 
 5. Fill missing values with the average from the above and below dataframe cells. 
 
-6. Calculate and apply thresholds for quantiles of 97.5% in cases of outliers.
+6. Calculate and apply thresholds for quantiles of 97.5% in the event of outliers.
 
 7. Transform values of the features for values close to 0.
 
@@ -33,7 +33,7 @@ The steps taken for getting the model were the following.
  - Adaboost;
  - eXtreme Gradient Boosting (XGB);
  - Regularized XGB;
- - Support Vector Machine.
+ - Support Vector Machine (SVM).
 
 10. Compare all results of the models and choose which one to use for submission. 
 
@@ -41,9 +41,9 @@ The steps taken for getting the model were the following.
 ![San Juan results](sj_new_20.png)
 RMSE and MAE for Iquitos:
 ![Iquitos results](iq_new_20.png)
-11. Run the model chosen with all the train data (not splitting Train/Test).
+11. Run the model chosen with all the Test data (not splitting Train/Test).
 
-12. Run the test data with the output of the model.
+12. Run the Test data with the output of the model.
 
-13. Submitted all models to drivendata, and found that the best model was from Random Forest, which provided a result of 25.175.
+13. Submitted all models to drivendata, and found that the best model was that of Random Forest, which provided a result of 25.175.
 
