@@ -29,7 +29,7 @@ The steps taken for getting the model were the following.
  - Decision Tree;
  - Random Forest;
  - Neural Network;
- - Neural Network from Keras;
+ - Neural Network (Keras);
  - Adaboost;
  - eXtreme Gradient Boosting (XGB);
  - Regularized XGB;
@@ -44,5 +44,5 @@ RMSE and MAE for Iquitos:
 
 12. Run the test data with the output of the model.
 
-13. Submit to drivendata.
+13. Submitted all models to drivendata, and found that the best model was from Random Forest, which provided a result of 25.175.
 
