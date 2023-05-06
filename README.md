@@ -38,7 +38,8 @@ The steps taken for getting the model were the following.
 10. Compare all results of the models and choose which one to use for submission.
  RMSE and MAE for San Juan:
 ![San Juan results](sj_new_20.png)
-
+RMSE and MAE for Iquitos:
+![Iquitos results](iq_new_20.png)
 11. Run the model chosen with all the train data (not splitting Train/Test).
 
 12. Run the test data with the output of the model.
