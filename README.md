@@ -29,7 +29,7 @@ The steps taken for getting the model were the following.
  - Decision Tree;
  - Random Forest;
  - Neural Network;
- - Neural Network from keras;
+ - Neural Network from Keras;
  - Adaboost;
  - eXtreme Gradient Boosting (XGB);
  - Regularized XGB;
