@@ -14,7 +14,7 @@ The steps taken for getting the model were the following.
   - Temperature from reanalysis were droped as they are simulated and there are observed data from station;
   - Precipitation from reanalysis were droped for the same reason, and as satelites contains many assumptions, were also dropped. We kept the data from station;
   - Relative Humidity and specific Humidity were kept;
-  - All NDVIs were kept, while San Juan presents a mix of ocean and bare soil, Iquitos has more of a sparse vegetation.
+  - All NDVIs were kept. While San Juan presents a mix of ocean and bare soil, Iquitos has more of a sparse vegetation.
 
 5. Fill missing values with the average from the above and below dataframe cells. 
 
@@ -36,9 +36,10 @@ The steps taken for getting the model were the following.
  - Support Vector Machine.
 
 10. Compare all results of the models and choose which one to use for submission.
+ RMSE and MAE for San Juan:
 ![San Juan results](sj_new_20.png)
 
-11. Run the model chosen with all the train data.
+11. Run the model chosen with all the train data (not splitting Train/Test).
 
 12. Run the test data with the output of the model.
 
