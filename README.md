@@ -29,8 +29,10 @@ The steps taken for getting the model were the following.
  - Decision Tree;
  - Random Forest;
  - Neural Network;
- - XGBOOST;
- - Regularized XGBOOST;
+ - Neural Network from keras;
+ - Adaboost;
+ - eXtreme Gradient Boosting (XGB);
+ - Regularized XGB;
  - Support Vector Machine.
 
 10. Compare all results of the models and choose which one to use for submission.
