@@ -34,6 +34,7 @@ The steps taken for getting the model were the following.
  - Support Vector Machine.
 
 10. Compare all results of the models and choose which one to use for submission.
+![sj_new_20](sj_new_20.pdf)
 
 11. Run the model chosen with all the train data.
 
