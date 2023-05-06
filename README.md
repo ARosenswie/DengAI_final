@@ -35,7 +35,8 @@ The steps taken for getting the model were the following.
  - Regularized XGB;
  - Support Vector Machine.
 
-10. Compare all results of the models and choose which one to use for submission. \n
+10. Compare all results of the models and choose which one to use for submission. 
+
  RMSE and MAE for San Juan:
 ![San Juan results](sj_new_20.png)
 RMSE and MAE for Iquitos:
